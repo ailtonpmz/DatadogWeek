@@ -47,7 +47,7 @@ helm repo update
 Antes de subir o agente no cluster, vamos criar um secrets Datadog em um comando
 
 ```bash
-kubectl create secret generic datadog-secret --from-literal api-key=b6a25bc125c4d977adaec23d1d2e4123
+kubectl create secret generic datadog-secret --from-literal api-key=bwrw23sdfsderd92342423423
 ```
 
 ## 3º Instalando Datadog Agent com values.yaml
