@@ -1,0 +1,11 @@
+Para salvar a imagem em um arquivo .tar:
+docker save -o nome-da-imagem.tar salomaosan/storefront:v0.3-rum
+
+ex: docker save -o storefront-v0.3-rum.tar salomaosan/storefront:v0.3-rum
+
+Para carregar essa imagem .tar depois no Docker
+docker load -i nome-da-imagem.tar
+
+ex: docker load -i storefront-v0.3-rum.tar
+
+

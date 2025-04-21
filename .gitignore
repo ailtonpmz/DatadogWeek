@@ -1,0 +1,42 @@
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+logs/
+*.log.*
+
+# Diretórios de dependência (adicione outros conforme necessário)
+node_modules/
+vendor/
+venv/
+env/
+.venv/
+
+# Arquivos de configuração de ambiente (descomente se necessário, mas geralmente é melhor ter um template)
+# .env
+# .env.*
+# !.env.example
+
+# Diretórios de build/output
+build/
+dist/
+target/
+out/
+
+# Arquivos de IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos temporários Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Outros (adicione conforme necessário para seus projetos específicos)
+# Ex: spree-ecommerce/tmp/
+# Ex: Dia-*/output/
+Dia-3/imagemDocker/*.tar
